@@ -1,0 +1,17 @@
+[package]
+name = "gif-service"
+version = "0.1.0"
+authors = ["jjzajac <jakub.zajac.jan@gmail.com>"]
+edition = "2018"
+crate_type = "lib"
+
+
+
+[dependencies]
+rusoto_core = "0.46.0"
+rusoto_dynamodb = "0.46.0"
+rusoto_s3 = "0.46.0"
+rusoto_credential = "0.46.0"
+dotenv = "0.15.0"
+tokio = { version = "1.0", features = ["macros"] }
+uuid = { version = "0.8", features = ["v3"] }
